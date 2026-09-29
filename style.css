@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(218, 179, 186);
+    text-align: center;
+    border-bottom: 20px solid hsl(0, 0%, 96%);
+}
+
+.title{
+    font-size: 80px;
+    font-family: Snell Roundhand;
+    border-bottom: 10px solid hsl(0, 0%, 96%);
+    text-shadow: 0px 12px 1px #a445a3bd;
+}
+
+.section-title
+{
+    font-family: Snell Roundhand;
+}
+
+@media (max-width:700px){
+
+    body{
+        background-color: rgb(187, 218, 179) ;
+    }
+    h1{
+        font-size: 100px;
+    }
+}
